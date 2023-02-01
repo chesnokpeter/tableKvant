@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  background-color: #121212;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.up {
+  height: 200px;
+  background: #212121;
+  box-shadow: 0px 50px 150px #212121;
+  border-radius: 0px 0px 80px 80px;
+  display: flex;
+  align-items: center;
+}
+
+.left {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 75px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+li {
+  list-style-type: none;
+  padding-inline-start: 60px;
+}
+
+.tree {
+  font-size: 30px;
+}
+
+.tree span {
+  cursor: pointer;
+}
+
+.chemistry span {
+  background: linear-gradient(90deg, #9cdf58 0%, #156e74 100%);
+}
+
+.prom span {
+  background: linear-gradient(90deg, #45c6e2 0%, #ffffff 100%);
+}
+
+.robo span {
+  background: linear-gradient(90deg, #2f70ee 22.92%, #ffffff 100%);
+}
+
+.bio span {
+  background: linear-gradient(90deg, #efc52f 14.58%, #b1ff0d 100%);
+}
+
+.it span {
+  background: linear-gradient(270deg, #006dab 0%, #0066ff 100%);
+}
+
+.soft span {
+  background: linear-gradient(
+    270deg,
+    #ffffff 0%,
+    #004fab 58.33%,
+    #5605be 92.71%
+  );
+}
+
+.geo span {
+  background: linear-gradient(
+    269.93deg,
+    #ffffff -3.92%,
+    #ff9900 50.49%,
+    #8c5400 92.42%
+  );
+}
+
+.nano span {
+  background: linear-gradient(
+    269.95deg,
+    #00a3ff 20.91%,
+    #b0ca67 74.13%,
+    #078962 100%
+  );
+}
+
+span {
+  margin-top: 10px;
+  display: flex;
+  margin-right: 300px;
+  height: 60px;
+  border-radius: 25px;
+  align-items: center;
+  padding-left: 50px;
+  opacity: 0.8;
+}
+
+span:hover {
+  font-weight: 600;
+}
+
+.by {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+@media all and (max-width: 1400px) {
+  .up {
+    height: 100px;
+  }
+  li {
+    padding-inline-start: 18px;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  span {
+    margin-right: 100px;
+  }
+}
+
+@media all and (max-width: 1050px) {
+  span {
+    margin-right: 50px;
+  }
+  li {
+    padding-inline-start: 10px;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .tree {
+    font-size: 20px;
+  }
+  span {
+    height: 35px;
+  }
+  .left {
+    font-size: 40px;
+  }
+  ul {
+    padding-left: 20px;
+  }
+}
+
+@media all and (max-width: 700px) {
+  span {
+    padding-left: 20px;
+    margin-right: 20px;
+  }
+  .left {
+    font-size: 30px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .tree {
+    font-size: 18px;
+  }
+  ul {
+    padding-left: 12px;
+  }
+  span {
+    padding-left: 10px;
+  }
+  ul#tree.tree {
+    padding: 0px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  span {
+    margin-right: 10px;
+  }
+  li {
+    padding: 0px;
+  }
+  .left {
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 420px) {
+  span {
+    margin-right: 2px;
+    margin-left: 2px;
+    padding-left: 5px;
+    height: 30px;
+    margin-top: 8px;
+  }
+  li {
+    padding: 0px;
+  }
+  .left {
+    font-size: 20px;
+  }
+  .tree {
+    font-size: 16px;
+  }
+  ul {
+    padding-left: 10px;
+  }
+}
+
+@media all and (max-width: 370px) {
+  span {
+    margin-right: 0px;
+  }
+  ul {
+    padding-left: 5px;
+  }
+}
+
+@media all and (max-width: 340px) {
+  .tree {
+    font-size: 15px;
+  }
+}
